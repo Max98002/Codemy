@@ -1,0 +1,12 @@
+.section {
+  margin: 0;
+  margin-bottom: 100px;
+  &-title {
+    @include bold;
+    color: $color-secondary;
+  }
+  &__title {
+    margin: 0;
+    margin-bottom: 52px;
+  }
+}
